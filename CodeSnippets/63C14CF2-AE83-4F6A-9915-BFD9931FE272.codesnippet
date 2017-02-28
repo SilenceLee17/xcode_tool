@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@attributedLabel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+    UILabel *attributedLabel =[[UILabel alloc] init];
+    attributedLabel.numberOfLines = 0;
+    attributedLabel.preferredMaxLayoutWidth = &lt;#preferredMaxLayoutWidth#&gt;;
+    attributedLabel.backgroundColor = [UIColor clearColor];
+    NSString *text = &lt;#text#&gt;;
+    NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc] init];
+    style.lineSpacing = &lt;#lineSpacing#&gt;;
+    NSDictionary *attr = @{
+                           NSFontAttributeName: [UIFont &lt;#font#&gt;],
+                           NSParagraphStyleAttributeName: style,
+                           NSForegroundColorAttributeName: [UIColor &lt;#color#&gt;]
+                           };
+    attributedLabel.attributedText = [[NSAttributedString alloc] initWithString:text attributes:attr];
+    [&lt;#view#&gt; addSubview:attributedLabel];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>63C14CF2-AE83-4F6A-9915-BFD9931FE272</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>attributedLabel</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>attributedLabel</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@borderbutton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+    UIButton *borderButton = [[UIButton alloc] init];
+    borderButton.layer.borderColor = [UIColor &lt;#color#&gt;].CGColor;
+    borderButton.layer.borderWidth = &lt;#borderWidth#&gt;;
+    borderButton.titleLabel.font = [UIFont &lt;#font#&gt;];
+    borderButton.clipsToBounds = YES;
+    borderButton.layer.cornerRadius = &lt;#cornerRadius#&gt;;
+    borderButton.backgroundColor = [UIColor &lt;#backgroundColor#&gt;];
+    [borderButton setTitleColor:[UIColor &lt;#titleColor#&gt;] forState:UIControlStateNormal];
+    [borderButton setTitle:&lt;#title#&gt; forState:UIControlStateNormal];
+    [borderButton addTarget:self action:@selector(borderButtonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [&lt;#code#&gt; addSubview:borderButton];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C3564F73-8D3B-4732-A3CB-C3F1CE9953A7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>borderButton</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>borderButton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
