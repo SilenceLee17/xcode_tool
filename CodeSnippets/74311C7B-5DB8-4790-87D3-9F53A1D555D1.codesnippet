@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@mark</string>
+	<string>@v</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark &lt;#mark#&gt;</string>
+	<string>- (void)&lt;#method#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>5AC7AF00-C8B2-497B-A141-CA156B17DF04</string>
+	<string>74311C7B-5DB8-4790-87D3-9F53A1D555D1</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>#pragma mark </string>
+	<string>method</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>#pragma mark </string>
+	<string>method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
