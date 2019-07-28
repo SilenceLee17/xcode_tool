@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@notificationcenter</string>
+	<string>@todo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[NSNotificationCenter defaultCenter]</string>
+	<string>//TODO: &lt;#content#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9E6628F2-C410-437F-B81E-58AC503BD377</string>
+	<string>E24F5135-25DF-4F9A-BCEF-B830BA2067E2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>NSNotificationCenter defaultCenter</string>
+	<string>TODO</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>NSNotificationCenter defaultCenter</string>
+	<string>TODO</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
